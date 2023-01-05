@@ -22,7 +22,7 @@ const quizzesSlice = createSlice({
             }
             state.quizzes[action.payload.id] = quizObj;
         }
-    }
+    },
 });
 
 // Create thunk action creator
