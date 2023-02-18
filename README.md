@@ -1,22 +1,5 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -30,13 +13,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/jeremaquai/FlashCards">
-    <img src="./public/logo192.png" alt="Logo" width="80" height="80">
+    <img src="./public/BeastFrogLogo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Flash Cards Challenge Project</h3>
 
   <p align="center">
-    project_description
+    
+
+FlashCards is a web application that allows users to create and study digital flashcards. It's a useful tool for anyone looking to memorize information, whether it's for studying, learning a new language, or preparing for a certification exam. The application is built using JavaScript, HTML, and CSS.
     <br />
     <a href="https://github.com/jeremaquai/FlashCards"><strong>Explore the docs »</strong></a>
     <br />
@@ -84,7 +69,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jeremaquai`, `FlashCards`, `twitter_handle`, `jeremiah-sparks-0ba36a239`, `gmail`, `jeremaquai`, `Flash Cards Challenge Project`, `project_description`
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,10 +77,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Node.js](https://nodejs.org/en/)
-* [React.js](https://reactjs.org/)
-* [react-router](https://reactrouter.com/en/main)
-* [react-redux](https://react-redux.js.org)
+* [JavaScript](https://www.javascript.com/)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [Git](https://git-scm.com/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -105,12 +90,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+
 * npm
   ```sh
   npm install npm@latest -g
@@ -141,9 +124,14 @@ OR
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To use the FlashCards application, simply follow these steps:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Click "Create Deck" to create a new deck of flashcards.
+2. Click "Add Card" to add a new flashcard to the current deck.
+3. Edit or delete existing flashcards by clicking the "Edit" or "Delete" buttons.
+4. Click "Study" to study the flashcards in the current deck.
+5. Use the "Mark as Known" and "Mark as Unknown" buttons to track your progress.
+6. View statistics about your flashcard usage and progress by clicking "Stats".
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -152,10 +140,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- Create decks of flashcards
+- Add, edit, and delete flashcards within a deck
+- Study flashcards in a random or sequential order
+- Mark flashcards as "known" or "unknown" to track your progress
+- View statistics about your flashcard usage and progress
+- Responsive design that works on desktop, tablet, and mobile devices
 
 See the [open issues](https://github.com/jeremaquai/FlashCards/issues) for a full list of proposed features (and known issues).
 
